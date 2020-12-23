@@ -1,16 +1,126 @@
 body {
-  background-color: powderblue;
+  background-color: #0a1128;
+  font-family: sans-serif, helvetica, Arial;
+  font-size: 16px;
+  color: white
 }
-h1 {
-  color: blue;
-}
+
 p {
-  width: 50%;
-  background: #FFF;
-  margin: 30px;
-  border: 30px solid #808080;
-  padding:30px;
-  font-family: Arial;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+section {
+  border-top: 2px solid #ffc857;
+  padding: 10px 0 0;
+}
+
+section:first-child {
+  border-top: 0;
+}
+
+section:last-child {
+  padding: 20px 0 10px;
+}
+
+.header {
+  padding: 20px, 20px;
+  border: 1px solid #ffc857;
+  background: #001f54;
+}
+
+.sectionTitle {
+  float: left;
+  width: 25%;
+}
+
+.sectionContent {
+  float: right;
+  width: 72.5%;
+}
+
+.clear {clear:both;}
+
+.sectionTitle h1 {
+  font-size: 1.5em;
+  color: #95F9E3;
+}
+
+.sectionTitle img {
+  width: 100%;
+  border: 1px solid #ffc857;
+}
+
+.sectionContent h2 {
+  font-size: 1.5em;
+  color: #449DD1;
+}
+
+.sectionContent h3 {
+  font-size: 1.2em;
+}
+
+.sectionContent ul {
+  line-height: 1.5em;
+  list-style: square;
+}
+
+.header img {
+  border: 1px solid #ffc857;
+}
+
+a[href] {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc857;
+}
+
+#ePortfolio {
+  width: 90%;
+  height: auto;
+  background: #034078;
+  margin: 5%;
+  border: 1px solid #ffc857;
+}
+
+#profileimage {
+  width: 13%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#profileimage img {
+  width: 100%
+  height:auto;
+}
+
+#name {
+  float: right;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#contact {
+  margin-right: 5px;
+  margin-bottom: -5px;
+  padding: 10%;
+}
+
+#name h1 {
+  font-size: 2.5em;
+}
+
+#name h2 {
   font-size: 2em;
-  color: #000;
+}
+
+#content {
+  background: #034078;
+  padding: 0 30px;
 }

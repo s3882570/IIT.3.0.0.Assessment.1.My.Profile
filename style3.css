@@ -1,0 +1,94 @@
+body {
+  background-color: #1f2041;
+}
+h1 {
+  color: #ffc857;
+  font-size: 3em;
+}
+h2 {
+  color: #ffc857;
+  font-size: 2em;
+}
+p {
+  width: 90%;
+  margin: 20px auto;
+  padding:20px;
+  padding-bottom: 10px;
+  font-family: Arial;
+  color: white;
+  line-height: 1.4em;
+  background-color: 4b3f72
+}
+section {
+  border-top: 1x solid: black;
+  padding: 20px;
+}
+
+.Introduction {
+
+}
+
+.sectionTitle {
+    margin: 20px auto;
+}
+
+.sectionTitle h1{
+  font-size: 3em;
+}
+
+.sectionTitle h2{
+  font-size: 2.5em;
+
+}
+
+.sectionContent h1{
+  font-size: 2.5em;
+}
+
+.sectionContent h2{
+  font-size: 1.5em;
+}
+
+.sectionContent p{
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+
+#myProfile {
+  width: 90%;
+  background: #1f2041;
+  margin: 20px, auto;
+}
+
+#Experience h2{
+  padding: 20px;
+}
+
+#Experience li{
+  list-style: square;
+}
+
+#sectionHead {
+
+}
+
+#name h1 {
+  align-content: center;
+  font-size: 2.5em;
+}
+
+#profilepic {
+  float: right;
+  padding: 10px;
+}
+
+#personal {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: white;
+}
+
+#personal li{
+  list-style: none;
+}
