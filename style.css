@@ -103,11 +103,11 @@ a:hover {
 #name {
   float: right;
   margin-left: 5px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 #contact {
-  margin-right: 5px;
+  margin-right: 10px;
   margin-bottom: -5px;
   padding: 10%;
 }
